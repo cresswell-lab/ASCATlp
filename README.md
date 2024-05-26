@@ -1,6 +1,6 @@
 # ASCATlp
 
-ASCAT low pass (ASCATlp) is a simple implementation of the logic of the ASCAT algorithm (Van Loo Lab) using only log2 ratio data. It is therefore suitable for analysis of low pass / low coverage / shallow whole genome sequencing data where B-allele frequency information is not available.
+ASCAT low pass (ASCATlp) is a simple implementation of the logic of the [ASCAT algorithm](https://github.com/VanLoo-lab/ascat) (Van Loo Lab) using only log2 ratio data. It is therefore suitable for analysis of low pass / low coverage / shallow whole genome sequencing data where B-allele frequency information is not available.
 
 Following the original ASCAT tool, the approach takes the following steps:
 
