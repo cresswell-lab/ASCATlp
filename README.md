@@ -32,6 +32,6 @@ The only input that ASCATlp requires is segmented log2 ratio values. These are p
 
 # Credit
 
-This function is entirely inspired by the original [ASCAT paper](https://pubmed.ncbi.nlm.nih.gov/20837533/) with some small modifications based on what improved analysis in our own datasets. Another major motivation for the development of this script was to add further customisable parameters. If you wish to use this tool we recommend providing a link to the GitHub repository but citing the original ASCAT paper.
+This function is entirely inspired by the original [ASCAT paper](https://pubmed.ncbi.nlm.nih.gov/20837533/) with some small modifications based on what improved analysis in our own datasets. Another major motivation for the development of this script was to add further customisable parameters. If you wish to use this tool we recommend providing a link to the GitHub repository but citing the original ASCAT paper. For example: "For this analysis we used the `ASCATlp` script which is based on the ASCAT approach[1](https://pubmed.ncbi.nlm.nih.gov/20837533/)".
 
 The code was developed by George Cresswell and tested by Claire Lynn.
