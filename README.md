@@ -30,6 +30,12 @@ The only input that ASCATlp requires is segmented log2 ratio values. These are p
 
 `no_fit_psit`: It is possible that no solution is found, if this is the case the tool will return a pure solution with this ploidy. By default it is set to 2 as it expects that samples where no fit is possible are samples without copy number alterations, i.e. normal samples (Default: 2).
 
+`preset`: This option, if set to TRUE, allow you to feed in a preset solution. Useful if you know the fit but just want the calculation of calls (Default: FALSE).
+                      
+`preset_purity`: Must be set if preset = TRUE, provide your preset purity estimation.
+
+`preset_ploidy`: Must be set if preset = TRUE, provide your preset ploidy estimation.
+
 # Credit
 
 This function is entirely inspired by the original [ASCAT paper](https://pubmed.ncbi.nlm.nih.gov/20837533/) with some small modifications based on what improved analysis in our own datasets. Another major motivation for the development of this script was to add further customisable parameters. If you wish to use this tool we recommend providing a link to the GitHub repository but citing the original ASCAT paper. For example: "For this analysis we used the `ASCATlp` script (https://github.com/cresswell-lab/ASCATlp) which is based on the ASCAT approach [1](https://pubmed.ncbi.nlm.nih.gov/20837533/)".
